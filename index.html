@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Incluye el CSS de Bootstrap para aplicar estilos (versión 4 en este ejemplo) -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script type = "module" src="main.js"></script>
+    <script type="module" src="main.js"></script>
   </head>
   <body>
     <div class="container">
@@ -18,7 +18,7 @@
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Nombre</th>
+                <th scope="col">Name</th>
                 <th scope="col">Channel</th>
                 <th scope="col">Seasons</th>
               </tr>
@@ -26,7 +26,19 @@
             <tbody id="seriesTableBody">
             </tbody>
           </table>
+        </div>
+        <div class="col-md-4">
+        
+          <div class="card" style="width: 100%;" id="serieCard">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Click on a title to display information</h5>
+              <p class="card-text"></p>
 
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
